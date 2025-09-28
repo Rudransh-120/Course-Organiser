@@ -32,7 +32,7 @@ const treeData: TreeNode[] = [
                       {
                         id: 'video1_content',
                         name: 'Watch Full Video',
-                        url: 'https://youtu.be/b7iAwrJEuxY',
+                        url: 'https://www.youtube.com/watch?v=b7iAwrJEuxY&list=PL1id2Mcm3075crezMeXOH2XGF4uJ5u6oi',
                       },
                     ],
                   },
@@ -43,7 +43,7 @@ const treeData: TreeNode[] = [
                       {
                         id: 'topic1_1',
                         name: '0:00 - Question 1: Fractions',
-                        url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=0s',
+                        url: 'https://www.youtube.com/watch?v=b7iAwrJEuxY&list=PL1id2Mcm3075crezMeXOH2XGF4uJ5u6oi&index=2',
                       },
                       {
                         id: 'topic1_2',
