@@ -1,8 +1,10 @@
 import { lectureData } from "@/data/lectures";
 import { notFound } from "next/navigation";
+import React from 'react';
 
-export default async function LecturePage({ params }: { params: { lectureId: string } }) {
-const decodedLectureId = decodeURIComponent((params).lectureId);
+export default async function LecturePage({ params }: { params: Promise<{ lectureId: string }> }) {
+  const resolvedParams = await params;
+  const decodedLectureId = decodeURIComponent(resolvedParams.lectureId);
 
 let foundLecture: any = null;
 
@@ -38,13 +40,15 @@ for (const cls of lectureData) {
 if (!foundLecture) return notFound();
 
   function timestampToSeconds(time: string): number {
+    // Return 0 if time is undefined or empty
+    if (!time) return 0;
     const parts = time.split(":").map(Number);
     return parts.length === 3
       ? parts[0] * 3600 + parts[1] * 60 + parts[2]
       : parts[0] * 60 + parts[1];
   }
 
-  const lectureName = foundLecture.name;
+  const lectureName: string = foundLecture.name;
 
   return (
     <div className="p-6 max-w-3xl mx-auto">
@@ -96,11 +100,11 @@ if (!foundLecture) return notFound();
           </p>
         )}
 
-        {summaryLinks[lectureName] && (
+        {(summaryLinks as Record<string, string>)[lectureName] && (
           <p>
             <strong>Summary Link:</strong>{" "}
             <a
-              href={summaryLinks[lectureName]}
+              href={(summaryLinks as Record<string, string>)[lectureName]}
               target="_blank"
               className="text-blue-600 underline"
             >
@@ -142,7 +146,7 @@ export async function generateStaticParams() {
       subj.topics.flatMap((topic) =>
         topic.subTopics.flatMap((sub) =>
           sub.lectures.map((lec) => ({
-            lectureId: lec.id,
+            lectureId: encodeURIComponent(lec.id),
           }))
         )
       )
