@@ -2,7 +2,7 @@ import { lectureData } from "@/data/lectures";
 import { notFound } from "next/navigation";
 
 export default async function LecturePage({ params }: { params: { lectureId: string } }) {
-const decodedLectureId = decodeURIComponent((await params).lectureId);
+const decodedLectureId = decodeURIComponent((params).lectureId);
 
 let foundLecture: any = null;
 
