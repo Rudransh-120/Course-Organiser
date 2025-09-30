@@ -8186,11 +8186,17 @@ const treeData: TreeNode[] = [
               }
             ],
           },
+        ],
+      },
+      {
+        id: 'math',
+        name: 'Math',
+        children: [
           {
             id: 'exponents and surds',
             name: 'Exponents and Surds',
             children: [
-              {
+             {
                 id: 'lecture1',
                 name: 'Lecture 1',
                 children: [
@@ -8279,8 +8285,8 @@ const treeData: TreeNode[] = [
                     ],
                   },
                 ],
-              },
-              {
+             },
+             {
                 id: 'lecture2',
                 name: 'Lecture 2',
                 children: [
@@ -8359,8 +8365,8 @@ const treeData: TreeNode[] = [
                     ],
                   },
                 ],
-              },
-              {
+             },
+             {
                 id: 'lecture3',
                 name: 'Lecture 3',
                 children: [
@@ -8439,8 +8445,8 @@ const treeData: TreeNode[] = [
                     ],
                   },
                 ],
-              },
-              {
+             },
+             {
                 id: 'lecture4',
                 name: 'Lecture 4',
                 children: [
@@ -8574,8 +8580,8 @@ const treeData: TreeNode[] = [
                     ],
                   },
                 ],
-              },
-              {
+             },
+             {
                 id: 'lecture5',
                 name: 'Lecture 5',
                 children: [
@@ -8659,8 +8665,8 @@ const treeData: TreeNode[] = [
                     ],
                   },
                 ],
-              },
-              {
+             },
+             {
                 id: 'lecture6',
                 name: 'Lecture 6',
                 children: [
@@ -8764,11 +8770,11 @@ const treeData: TreeNode[] = [
                     ],
                   },
                 ],
-              } 
+             }  
             ]
           }
-        ],
-      },
+        ]
+      }
     ],
   }
 ];
