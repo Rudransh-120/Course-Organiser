@@ -11223,7 +11223,8 @@ const treeData: TreeNode[] = [
                     children: [
                       {
                         id: 'homework20_content',
-                        name: 'https://docs.google.com/document/d/1zmRVY2-ovPn3uKwhdtmhQM0pxg6VvcIfL_ckx44_G0g/edit?tab=t.0#heading=h.wcosatycfid3'
+                        name: 'View Homework Document',
+                        url: 'https://docs.google.com/document/d/1zmRVY2-ovPn3uKwhdtmhQM0pxg6VvcIfL_ckx44_G0g/edit?tab=t.0#heading=h.wcosatycfid3'
                       },
                     ],
                   },
@@ -11302,7 +11303,8 @@ const treeData: TreeNode[] = [
                     children: [
                       {
                         id: 'homework21_content',
-                        name: 'https://drive.google.com/file/d/196vzrq5n8BUKvJYdOkDuggmHutTPA-uG/view'
+                        name: 'View Homework Document',
+                        url: 'https://drive.google.com/file/d/196vzrq5n8BUKvJYdOkDuggmHutTPA-uG/view'
                       },
                     ],
                   },
@@ -11512,6 +11514,111 @@ const treeData: TreeNode[] = [
                 ],
              }  
             ]
+          }
+        ]
+      },
+      {
+        id: 'revision',
+        name: 'Revision',
+        children: [
+          {
+            id: 'lecture1',
+            name: 'Lecture 1',
+            children: [
+              {
+                id: 'video1',
+                name: 'Full Video Link',
+                children: [
+                  {
+                    id: 'video1_content',
+                    name: 'Watch Full Video',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g',
+                  },
+                ],
+              },
+              {
+                id: 'topics1',
+                name: 'Class Topics',
+                children: [
+                  {
+                    id: 'topic1_1',
+                    name: '0:00 - Homework Checking',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2',
+                  },
+                  {
+                    id: 'topic1_2',
+                    name: '2:50 - Doubt 1',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=170s',
+                  },
+                  {
+                    id: 'topic1_3',
+                    name: '20:44 - Doubt 2',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=1244s',
+                  },
+                  {
+                    id: 'topic1_4',
+                    name: '24:48 - Doubt 3',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=1488s',
+                  },
+                  {
+                    id: 'topic1_5',
+                    name: '28:19 - Doubt 4',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=1699s',
+                  },
+                  {
+                    id: 'topic1_6',
+                    name: '32:36 - Doubt 5',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=1956s',
+                  },
+                  {
+                    id: 'topic1_7',
+                    name: '41:31 - Doubt 6',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=2491s',
+                  },
+                  {
+                    id: 'topic1_8',
+                    name: '45:17 - Doubt 7',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=2717s',
+                  },
+                  {
+                    id: 'topic1_9',
+                    name: '51:03 - Doubt 8',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=3063s',
+                  },
+                  {
+                    id: 'topic1_10',
+                    name: '1:00:25 - Doubt 9',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=3625s',
+                  },
+                  {
+                    id: 'topic1_11',
+                    name: '1:06:57 - Doubt 10',
+                    url: 'https://www.youtube.com/watch?v=3mJEkt_aKk0&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=4017s',
+                  }
+                ],
+              },
+              {
+                id: 'summary1',
+                name: 'Class Summary',
+                children: [
+                  {
+                    id: 'summary1_content',
+                    name: 'View Summary Document',
+                    url: 'https://docs.google.com/document/d/1QC1vkKr5eRrQi4zO2Dc7vGNMWuT7EYyVGlhVhmXmsCQ/edit?tab=t.0',
+                  },
+                ],
+              },
+              {
+                id: 'homework1',
+                name: 'Homework',
+                children: [
+                  {
+                    id: 'homework1_content',
+                    name: 'No Homework was assigned'
+                  },
+                ],
+              },
+            ],
           }
         ]
       }
