@@ -11619,6 +11619,100 @@ const treeData: TreeNode[] = [
                 ],
               },
             ],
+          },
+          {
+            id: 'lecture2',
+            name: 'Lecture 2',
+            children: [
+              {
+                id: 'video2',
+                name: 'Full Video Link',
+                children: [
+                  {
+                    id: 'video2_content',
+                    name: 'Watch Full Video',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=1',
+                  },
+                ],
+              },
+              {
+                id: 'topics2',
+                name: 'Class Topics',
+                children: [
+                  {
+                    id: 'topic2_1',
+                    name: '0:00 - Doubt 1',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2',
+                  },
+                  {
+                    id: 'topic2_2',
+                    name: '6:45 - Question 1',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=405s',
+                  },
+                  {
+                    id: 'topic2_3',
+                    name: '15:31 - Doubt 2',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=931s',
+                  },
+                  {
+                    id: 'topic2_4',
+                    name: '21:42 - Doubt 3',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=1302s',
+                  },
+                  {
+                    id: 'topic2_5',
+                    name: '30:41 - Doubt 4',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=1841s',
+                  },
+                  {
+                    id: 'topic2_6',
+                    name: '35:04 - Doubt 5',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=2104s',
+                  },
+                  {
+                    id: 'topic2_7',
+                    name: '38:01 - Doubt 6',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=2281s',
+                  },
+                  {
+                    id: 'topic2_8',
+                    name: '45:07 - Doubt 7',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=2707s',
+                  },
+                  {
+                    id: 'topic2_9',
+                    name: '51:37 - Doubt 8',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=3097s',
+                  },
+                  {
+                    id: 'topic2_10',
+                    name: '55:30 - Discussion on Discipline',
+                    url: 'https://www.youtube.com/watch?v=aCorJwMvtiM&list=PL1id2Mcm3076Bn6f8PnDVaEB3E0qHMe1g&index=2&t=3330s',
+                  }
+                ],
+              },
+              {
+                id: 'summary2',
+                name: 'Class Summary',
+                children: [
+                  {
+                    id: 'summary2_content',
+                    name: 'View Summary Document',
+                    url: 'https://docs.google.com/document/d/1dkarKPAgS5GVQ0wSjbbs4JTyloybrjwY7QyaM_OCX3w/edit?tab=t.0',
+                  },
+                ],
+              },
+              {
+                id: 'homework2',
+                name: 'Homework',
+                children: [
+                  {
+                    id: 'homework2_content',
+                    name: 'No Homework was assigned'
+                  },
+                ],
+              },
+            ],
           }
         ]
       }
