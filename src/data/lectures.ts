@@ -7,7 +7,7 @@ export const lectureData = [
         name: "Math",
         topics: [
           {
-            id: "pre-algebra-1",
+            id: "pre-algebra",
             name: "Pre-Algebra",
             subTopics: [
               {
