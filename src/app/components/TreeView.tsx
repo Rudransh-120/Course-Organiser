@@ -6472,7 +6472,1314 @@ const treeData: TreeNode[] = [
                     ],
                   },
                 ],
-              } 
+              },
+              {
+                id: 'lecture5',
+                name: 'Lecture 5',
+                children: [
+                  {
+                    id: 'video5',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video5_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=EfokABQ3Uk0&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=10',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics5',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic5_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic5_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic5_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic5_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic5_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic5_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic5_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic5_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic5_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic5_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary5',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary5_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework5',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework5_content',
+                        name: 'https://docs.google.com/document/d/19DgXfJOSfKAbLnMqwa7IlgfNBA9w6kwR8ZN2IU2Lfu8/edit?tab=t.0'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 6',
+                name: 'Lecture 6',
+                children: [
+                  {
+                    id: 'video6',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video6_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=yEsxwA0cxHM&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=11',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics6',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic6_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic6_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic6_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic6_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic6_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic6_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic6_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic6_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic6_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic6_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary6',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary6_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework6',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework6_content',
+                        name: 'https://docs.google.com/document/d/1WEOb-Tsvr_zdsPm5Z1YE8USqqBB8VBnvMYNkH5q4y-o/edit?tab=t.0'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 7',
+                name: 'Lecture 7',
+                children: [
+                  {
+                    id: 'video7',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video7_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=gohObUMmDuw&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=12',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics7',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic7_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic7_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic7_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic7_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic7_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic7_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic7_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic7_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic7_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic7_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary7',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary7_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework7',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework7_content',
+                        name: 'https://docs.google.com/document/d/1w3iuKxL_jKcrtr4KAaopp0jos6-XBPhZC5OH9pVtDCQ/edit?tab=t.0'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 8',
+                name: 'Lecture 8',
+                children: [
+                  {
+                    id: 'video8',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video8_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=Cf5HEw0ymZ4&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=13',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics8',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic8_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic8_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic8_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic8_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic8_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic8_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic8_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic8_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic8_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic8_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary8',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary8_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework8',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework8_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 9',
+                name: 'Lecture 9',
+                children: [
+                  {
+                    id: 'video9',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video9_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=zuknEh_yKfA&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=14',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics9',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic9_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic9_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic9_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic9_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic9_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic9_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic9_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic9_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic9_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic9_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary9',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary9_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework9',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework9_content',
+                        name: 'View Homework Document',
+                        url: 'https://docs.google.com/document/d/1nCfaB0OduY20_QniFCafsnXFqNHW7BiH8Vommvd74yA/edit?tab=t.0#heading=h.7withdk0z9bd'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 10',
+                name: 'Lecture 10',
+                children: [
+                  {
+                    id: 'video10',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video10_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=va9gXs2XwVY&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=9',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics10',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic10_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic10_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic10_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic10_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic10_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic10_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic10_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic10_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic10_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic10_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary10',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary10_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework10',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework10_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 11',
+                name: 'Lecture 11',
+                children: [
+                  {
+                    id: 'video11',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video11_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=EIUwZeavBS4&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=8',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics11',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic11_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic11_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic11_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic11_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic11_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic11_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic11_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic11_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic11_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic11_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary11',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary11_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework11',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework11_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 12',
+                name: 'Lecture 12',
+                children: [
+                  {
+                    id: 'video12',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video12_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=-QwKCKQ47vk&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=7',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics12',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic12_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic12_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic12_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic12_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic12_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic12_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic12_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic12_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic12_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic12_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary12',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary12_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework12',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework12_content',
+                        name: 'View Homework Document',
+                        url: 'https://docs.google.com/document/d/1bIBxIbQjBOQlePBHAQDlKg-UGfal6Ppca3SUfFGvd-k/edit?tab=t.0'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 13',
+                name: 'Lecture 13',
+                children: [
+                  {
+                    id: 'video13',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video13_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=ALwW3FIwunM&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=6',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics13',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic13_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic13_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic13_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic13_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic13_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic13_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic13_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic13_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic13_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic13_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary13',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary13_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework13',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework13_content',
+                        name: 'View Homework Document',
+                        url: 'https://docs.google.com/document/d/19qFJzQu--DhqAAQYP905YICnCB6Mf_QsTL5GnRhwFyA/edit?tab=t.0'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 14',
+                name: 'Lecture 14',
+                children: [
+                  {
+                    id: 'video14',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video14_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=em0klivcPKU&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=5',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics14',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic14_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic14_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic14_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic14_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic14_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic14_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic14_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic14_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic14_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic14_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary14',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary14_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework14',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework14_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 15',
+                name: 'Lecture 15',
+                children: [
+                  {
+                    id: 'video15',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video15_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=f3K59XFgfHY&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=4',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics15',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic15_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic15_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic15_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic15_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic15_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic15_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic15_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic15_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic15_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic15_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary15',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary15_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework15',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework15_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 16',
+                name: 'Lecture 16',
+                children: [
+                  {
+                    id: 'video16',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video16_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=3kvmWZzI380&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=3',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics16',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic16_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic16_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic16_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic16_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic16_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic16_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic16_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic16_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic16_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic16_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary16',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary16_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework16',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework16_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 17',
+                name: 'Lecture 17',
+                children: [
+                  {
+                    id: 'video17',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video17_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=e1EI3aVwXl8&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=2',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics17',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic17_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary17',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary17_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework17',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework17_content',
+                        name: 'View Homework Document',
+                        url: 'https://docs.google.com/document/d/1_JTKruLegaDPqlLcutTqDIhjMaFNSOgNdEy2R9ZR6DU/edit?tab=t.0'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture 18',
+                name: 'Lecture 18',
+                children: [
+                  {
+                    id: 'video18',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video18_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=kfY-VFGVxVE&list=PL1id2Mcm3076k0XlBejpT0wKzlTiQJfsm&index=1',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics18',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic18_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_4',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_5',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_6',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_7',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_8',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_9',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_10',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary18',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary18_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework18',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework18_content',
+                        name: 'View Homework Document',
+                        url: ''
+                      },
+                    ],
+                  },
+                ],
+              }
             ]
           } 
        ]
