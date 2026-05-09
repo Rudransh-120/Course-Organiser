@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { lectureData } from "@/data/lectures";
+import { url } from 'inspector/promises';
 
 type TreeNode = {
   id: string;
@@ -5839,7 +5840,196 @@ const treeData: TreeNode[] = [
                     children: [
                       {
                         id: 'homework16_content',
-                        name: ''
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+             },
+             {
+                id: 'lecture17',
+                name: 'Lecture 17',
+                children: [
+                  {
+                    id: 'video17',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video17_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=tba6XNpOELo&list=PL1id2Mcm3077tZ0WSqgAeOeb24wADJBXf&index=3',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topic17',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic17_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic17_4',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary17',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary17_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework17',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework17_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+             },
+             {
+                id: 'lecture18',
+                name: 'Lecture 18',
+                children: [
+                  {
+                    id: 'video18',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video18_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=tOr9hwEvgRc&list=PL1id2Mcm3077tZ0WSqgAeOeb24wADJBXf&index=2',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topic18',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic18_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic18_4',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary18',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary18_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework18',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework18_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+             },
+             {
+                id: 'lecture19',
+                name: 'Lecture 19',
+                children: [
+                  {
+                    id: 'video19',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video19_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=FsLeHzS8OA0&list=PL1id2Mcm3077tZ0WSqgAeOeb24wADJBXf&index=1',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topic19',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic19_1',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic19_2',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic19_3',
+                        name: ' - ',
+                        url: '',
+                      },
+                      {
+                        id: 'topic19_4',
+                        name: ' - ',
+                        url: '',
+                      }
+                    ],
+                  },
+                  {
+                    id: 'summary19',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary19_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework19',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework19_content',
+                        name: 'No Homework was assigned'
                       },
                     ],
                   },
@@ -16835,6 +17025,1216 @@ const treeData: TreeNode[] = [
                         id: 'homework13_content',
                         name: 'View Homework Document',
                         url: 'https://docs.google.com/document/d/1eRPZBmRi684hW6WB0TdraTCSyQGseTDcTlD4X0hbQdU/edit?tab=t.0'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture14',
+                name: 'Lecture 14',
+                children: [
+                  {
+                    id: 'video14',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video14_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=14',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics14',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic14_1',
+                        name: '0:00 - Homework Checking',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15',
+                      },
+                      {
+                        id: 'topic14_2',
+                        name: '4:12 - Doubt 1',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=252s',
+                      },
+                      {
+                        id: 'topic14_3',
+                        name: '9:10 - Doubt 2',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=550s',
+                      },
+                      {
+                        id: 'topic14_4',
+                        name: '13:11 - Doubt 3',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=791s',
+                      },
+                      {
+                        id: 'topic14_5',
+                        name: '15:31 - Doubt 4',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=931s',
+                      },
+                      {
+                        id: 'topic14_6',
+                        name: '18:12 - Concept of Orbit-based Configuration',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=1092s',
+                      },
+                      {
+                        id: 'topic14_7',
+                        name: '22:30 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=1350s',
+                      },
+                      {
+                        id: 'topic14_8',
+                        name: '33:19 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=2000s',
+                      },
+                      {
+                        id: 'topic14_9',
+                        name: '37:24 - Question 3',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=2244s',
+                      },
+                      {
+                        id: 'topic14_10',
+                        name: '48:16 - Concept of Ionization Energy Trend Down a Group',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=2896s',
+                      },
+                      {
+                        id: 'topic14_11',
+                        name: '54:08 - Question 4',
+                        url: 'https://www.youtube.com/watch?v=cVOXOOgyon4&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15&t=3248s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary14',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary14_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework14',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework14_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture15',
+                name: 'Lecture 15',
+                children: [
+                  {
+                    id: 'video15',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video15_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=kHVH-dCDIeo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=15',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics15',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic15_1',
+                        name: '0:00 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=kHVH-dCDIeo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=16',
+                      },
+                      {
+                        id: 'topic15_2',
+                        name: '11:54 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=kHVH-dCDIeo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=16&t=714s',
+                      },
+                      {
+                        id: 'topic15_3',
+                        name: '18:16 - Concept of how Lanthanide Contraction Causes Exceptions in the Trends of Ionization Energy',
+                        url: 'https://www.youtube.com/watch?v=kHVH-dCDIeo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=16&t=1096s',
+                      },
+                      {
+                        id: 'topic15_4',
+                        name: '55:53 - Question 3',
+                        url: 'https://www.youtube.com/watch?v=kHVH-dCDIeo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=16&t=3353s',
+                      },
+                      {
+                        id: 'topic15_5',
+                        name: '1:01:12 - Question 4',
+                        url: 'https://www.youtube.com/watch?v=kHVH-dCDIeo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=16&t=3672s',
+                      },
+                      {
+                        id: 'topic15_6',
+                        name: '1:06:25 - Concept of Valence Electrons True Position',
+                        url: 'https://www.youtube.com/watch?v=kHVH-dCDIeo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=16&t=3985s',
+                      },
+                      {
+                        id: 'topic15_7',
+                        name: '1:10:24 - Question 5',
+                        url: 'https://www.youtube.com/watch?v=kHVH-dCDIeo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=16&t=4224s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary15',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary15_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework15',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework15_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture16',
+                name: 'Lecture 16',
+                children: [
+                  {
+                    id: 'video16',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video16_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=kHVH-dCDIeo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=16',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics16',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic16_1',
+                        name: '0:00 - Homework Checking',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17',
+                      },
+                      {
+                        id: 'topic16_2',
+                        name: '4:01 - Doubt 1',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=241s',
+                      },
+                      {
+                        id: 'topic16_3',
+                        name: '6:00 - Doubt 2',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=360s',
+                      },
+                      {
+                        id: 'topic16_4',
+                        name: '8:08 - Doubt 3',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=488s',
+                      },
+                      {
+                        id: 'topic16_5',
+                        name: '17:04 - Doubt 4',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=1024s',
+                      },
+                      {
+                        id: 'topic16_6',
+                        name: '20:32 - Doubt 5',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=3985s',
+                      },
+                      {
+                        id: 'topic16_7',
+                        name: '29:19 - Doubt 6',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=4224s',
+                      },
+                      {
+                        id: 'topic16_8',
+                        name: '34:28 - Doubt 7',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=3353s',
+                      },
+                      {
+                        id: 'topic16_9',
+                        name: '42:28 - Doubt 8',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=3672s',
+                      },
+                      {
+                        id: 'topic16_10',
+                        name: '50:49 - Doubt 9',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=3985s',
+                      },
+                      {
+                        id: 'topic16_11',
+                        name: '58:54 - Doubt 10',
+                        url: 'https://www.youtube.com/watch?v=BYAMyYw9pDA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17&t=4224s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary16',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary16_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework16',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework16_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture17',
+                name: 'Lecture 17',
+                children: [
+                  {
+                    id: 'video17',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video17_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=0YjC0eBKML0&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=17',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics17',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic17_1',
+                        name: '0:00 - Concept of Lattices, Bonds and Different types of structures in Compounds',
+                        url: 'https://www.youtube.com/watch?v=0YjC0eBKML0&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=18',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary17',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary17_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework17',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework17_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture18',
+                name: 'Lecture 18',
+                children: [
+                  {
+                    id: 'video18',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video18_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=18',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics18',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic18_1',
+                        name: '0:00 - Concept of Metallic Radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19',
+                      },
+                      {
+                        id: 'topic18_2',
+                        name: '12:33 - Concept of Ionic Radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=753s',
+                      },
+                      {
+                        id: 'topic18_3',
+                        name: '18:22 - Concept of Covalent and Vander der Waal radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=1102s',
+                      },
+                      {
+                        id: 'topic18_4',
+                        name: '27:53 - Problems about Comparing Radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=1673s',
+                      },
+                      {
+                        id: 'topic18_5',
+                        name: '36:07 - IIT JEE Atomic Radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=2167s',
+                      },
+                      {
+                        id: 'topic18_6',
+                        name: '1:07:08 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=2828s',
+                      },
+                      {
+                        id: 'topic18_7',
+                        name: '1:15:48 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=4548s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary18',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary18_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework18',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework18_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture18',
+                name: 'Lecture 18',
+                children: [
+                  {
+                    id: 'video18',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video18_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=18',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics18',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic18_1',
+                        name: '0:00 - Concept of Metallic Radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19',
+                      },
+                      {
+                        id: 'topic18_2',
+                        name: '12:33 - Concept of Ionic Radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=753s',
+                      },
+                      {
+                        id: 'topic18_3',
+                        name: '18:22 - Concept of Covalent and Vander der Waal radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=1102s',
+                      },
+                      {
+                        id: 'topic18_4',
+                        name: '27:53 - Problems about Comparing Radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=1673s',
+                      },
+                      {
+                        id: 'topic18_5',
+                        name: '36:07 - IIT JEE Atomic Radius',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=2167s',
+                      },
+                      {
+                        id: 'topic18_6',
+                        name: '1:07:08 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=2828s',
+                      },
+                      {
+                        id: 'topic18_7',
+                        name: '1:15:48 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=vapQ74atIlU&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19&t=4548s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary18',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary18_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework18',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework18_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture19',
+                name: 'Lecture 19',
+                children: [
+                  {
+                    id: 'video19',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video19_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=-5ROcALHtwY&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=19',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics19',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic19_1',
+                        name: '0:00 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=-5ROcALHtwY&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=20',
+                      },
+                      {
+                        id: 'topic19_2',
+                        name: '14:21 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=-5ROcALHtwY&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=20&t=861s',
+                      },
+                      {
+                        id: 'topic19_3',
+                        name: '28:53 - Question 3',
+                        url: 'https://www.youtube.com/watch?v=-5ROcALHtwY&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=20&t=1733s',
+                      },
+                      {
+                        id: 'topic19_4',
+                        name: '36:50 - Question 4',
+                        url: 'https://www.youtube.com/watch?v=-5ROcALHtwY&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=20&t=2210s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary19',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary19_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework19',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework19_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture20',
+                name: 'Lecture 20',
+                children: [
+                  {
+                    id: 'video20',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video20_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=263pyF0Dg8s&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=20',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics20',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic20_1',
+                        name: '0:00 - Homework Checking ',
+                        url: 'https://www.youtube.com/watch?v=263pyF0Dg8s&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=21',
+                      },
+                      {
+                        id: 'topic20_2',
+                        name: '4:54 - Doubt 1',
+                        url: 'https://www.youtube.com/watch?v=263pyF0Dg8s&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=21&t=294s',
+                      },
+                      {
+                        id: 'topic20_3',
+                        name: '7:11 - Doubt 2',
+                        url: 'https://www.youtube.com/watch?v=263pyF0Dg8s&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=21&t=431s',
+                      },
+                      {
+                        id: 'topic20_4',
+                        name: '11:08 - Doubt 3',
+                        url: 'https://www.youtube.com/watch?v=263pyF0Dg8s&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=21&t=668s',
+                      },
+                      {
+                        id: 'topic20_5',
+                        name: '15:28 - Concept of Exceptions',
+                        url: 'https://www.youtube.com/watch?v=263pyF0Dg8s&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=21&t=928s',
+                      },
+                      {
+                        id: 'topic20_6',
+                        name: '1:06:02 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=263pyF0Dg8s&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=21&t=3962s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary20',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary20_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework20',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework20_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture21',
+                name: 'Lecture 21',
+                children: [
+                  {
+                    id: 'video21',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video21_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=yi9RjrWaTGA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=21',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics21',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic21_1',
+                        name: '0:00 - Concept of Electron Gain Enthaply',
+                        url: 'https://www.youtube.com/watch?v=yi9RjrWaTGA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=22',
+                      },
+                      {
+                        id: 'topic21_2',
+                        name: '30:35 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=yi9RjrWaTGA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=22&t=1835s',
+                      },
+                      {
+                        id: 'topic21_3',
+                        name: '47:21 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=yi9RjrWaTGA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=22&t=2841s',
+                      },
+                      {
+                        id: 'topic21_4',
+                        name: '56:10 - Question 3',
+                        url: 'https://www.youtube.com/watch?v=yi9RjrWaTGA&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=22&t=3370s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary21',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary21_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework21',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework21_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture22',
+                name: 'Lecture 22',
+                children: [
+                  {
+                    id: 'video22',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video22_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=vVGmPTyPbC8&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=22',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics22',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic22_1',
+                        name: '0:00 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=vVGmPTyPbC8&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=23',
+                      },
+                      {
+                        id: 'topic22_2',
+                        name: '52:43 - Concept of Electron Affinity',
+                        url: 'https://www.youtube.com/watch?v=vVGmPTyPbC8&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=23&t=3163s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary22',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary22_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework22',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework22_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture23',
+                name: 'Lecture 23',
+                children: [
+                  {
+                    id: 'video23',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video23_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=5Wn_n5n64Mo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=23',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics23',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic23_1',
+                        name: '0:00 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=5Wn_n5n64Mo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=24',
+                      },
+                      {
+                        id: 'topic23_2',
+                        name: '37:08 - Concept of Electron Affinity',
+                        url: 'https://www.youtube.com/watch?v=5Wn_n5n64Mo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=24&t=2228s',
+                      },
+                      {
+                        id: 'topic23_3',
+                        name: '45:09 - Concept of Electron Affinity',
+                        url: 'https://www.youtube.com/watch?v=5Wn_n5n64Mo&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=24&t=2709s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary23',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary23_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework23',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework23_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture24',
+                name: 'Lecture 24',
+                children: [
+                  {
+                    id: 'video24',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video24_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=D-wZdEK0VbM&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=24',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics24',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic24_1',
+                        name: '0:00 - Question From Previous Class',
+                        url: 'https://www.youtube.com/watch?v=D-wZdEK0VbM&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=25',
+                      },
+                      {
+                        id: 'topic24_2',
+                        name: '26:49 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=D-wZdEK0VbM&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=25&t=1609s',
+                      },
+                      {
+                        id: 'topic24_3',
+                        name: '52:07 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=D-wZdEK0VbM&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=25&t=3127s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary24',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary24_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework24',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework24_content',
+                        name: 'View Homework Document',
+                        url: 'https://docs.google.com/document/d/1xpyMU_p5jS3-NlAhnS2ovgYik5w74UYqOApFuRVP2BM/edit?tab=t.0#heading=h.kyf6acn08ncq'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture25',
+                name: 'Lecture 25',
+                children: [
+                  {
+                    id: 'video25',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video25_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=25',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics25',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic25_1',
+                        name: '0:00 - Homework Checking',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26',
+                      },
+                      {
+                        id: 'topic25_2',
+                        name: '5:19 - Doubt 1',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=319s',
+                      },
+                      {
+                        id: 'topic25_3',
+                        name: '6:54 - Concept of Energy of Reactants and Products',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=414s',
+                      },
+                      {
+                        id: 'topic25_4',
+                        name: '12:54 - Doubt 2',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=774s',
+                      },
+                      {
+                        id: 'topic25_5',
+                        name: '14:37 - Doubt 3',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=877s',
+                      },
+                      {
+                        id: 'topic25_6',
+                        name: '17:48 - Doubt 4',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=1068s',
+                      },
+                      {
+                        id: 'topic25_7',
+                        name: '23:02 - Doubt 5',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=1382s',
+                      },
+                      {
+                        id: 'topic25_8',
+                        name: '23:54 - Doubt 6',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=1434s',
+                      },
+                      {
+                        id: 'topic25_9',
+                        name: '27:50 - Doubt 7',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=1670s',
+                      },
+                      {
+                        id: 'topic25_10',
+                        name: '33:15 - Doubt 8',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=1995s',
+                      },
+                      {
+                        id: 'topic25_11',
+                        name: '38:32 - Doubt 9',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=2312s',
+                      },
+                      {
+                        id: 'topic25_12',
+                        name: '43:51 - Doubt 10',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=2631s',
+                      },
+                      {
+                        id: 'topic25_13',
+                        name: '47:09 - Doubt 11',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=2829s',
+                      },
+                      {
+                        id: 'topic25_14',
+                        name: '50:16 - Doubt 12',
+                        url: 'https://www.youtube.com/watch?v=BVQ5GpzwUAc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26&t=3016s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary25',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary25_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework25',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework25_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture26',
+                name: 'Lecture 26',
+                children: [
+                  {
+                    id: 'video26',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video26_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=zADmFIozCvM&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=26',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics26',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic26_1',
+                        name: '0:00 - Electronegativity and Some Values',
+                        url: 'https://www.youtube.com/watch?v=zADmFIozCvM&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=27',
+                      },
+                      {
+                        id: 'topic26_2',
+                        name: '33:25 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=zADmFIozCvM&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=27&t=2005s',
+                      },
+                      {
+                        id: 'topic26_3',
+                        name: '43:04 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=zADmFIozCvM&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=27&t=2584s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary26',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary26_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework26',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework26_content',
+                        name: 'View Homework Document',
+                        url: 'https://docs.google.com/document/d/1XQtNRdPMOBZVOze9e9KbhDz9S5qTcZEP_fxN9UpDwTw/edit?tab=t.0#heading=h.xqdz03nsutrp'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture27',
+                name: 'Lecture 27',
+                children: [
+                  {
+                    id: 'video27',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video27_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=OrOTIgefvss&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=27',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics27',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic27_1',
+                        name: '0:00 - Explaination of the Covalent Bond',
+                        url: 'https://www.youtube.com/watch?v=OrOTIgefvss&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=28',
+                      },
+                      {
+                        id: 'topic27_2',
+                        name: '41:36 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=OrOTIgefvss&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=28&t=2496s',
+                      },
+                      {
+                        id: 'topic27_3',
+                        name: '1:00:05 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=OrOTIgefvss&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=28&t=3605s',
+                      },
+                      {
+                        id: 'topic27_4',
+                        name: '1:03:14 - Question 3',
+                        url: 'https://www.youtube.com/watch?v=OrOTIgefvss&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=28&t=3794s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary27',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary27_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework27',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework27_content',
+                        name: 'No Homework was assigned'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture28',
+                name: 'Lecture 28',
+                children: [
+                  {
+                    id: 'video28',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video28_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=73DpswoQltw&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=28',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics28',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic28_1',
+                        name: '0:00 - Question 1',
+                        url: 'https://www.youtube.com/watch?v=73DpswoQltw&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=29',
+                      },
+                      {
+                        id: 'topic28_2',
+                        name: '18:10 - Question 2',
+                        url: 'https://www.youtube.com/watch?v=73DpswoQltw&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=29&t=1090s',
+                      },
+                      {
+                        id: 'topic28_3',
+                        name: '27:14 - Question 3',
+                        url: 'https://www.youtube.com/watch?v=OrOTIgefvss&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=29&t=1634s',
+                      },
+                      {
+                        id: 'topic28_4',
+                        name: '37:05 - Question 4',
+                        url: 'https://www.youtube.com/watch?v=OrOTIgefvss&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=29&t=2225s',
+                      },
+                      {
+                        id: 'topic28_5',
+                        name: '45:54 - Question 5',
+                        url: 'https://www.youtube.com/watch?v=OrOTIgefvss&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=29&t=2754s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary28',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary28_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework28',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework28_content',
+                        name: 'View Homework Document',
+                        url: 'https://docs.google.com/document/d/1pjbHjQolQVW746H7m-JpXOMQqu6upjHVbNdc2YZNOcM/edit?tab=t.0'
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'lecture29',
+                name: 'Lecture 29',
+                children: [
+                  {
+                    id: 'video29',
+                    name: 'Full Video Link',
+                    children: [
+                      {
+                        id: 'video29_content',
+                        name: 'Watch Full Video',
+                        url: 'https://www.youtube.com/watch?v=Or9snJMVZzc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=29',
+                      },
+                    ],
+                  },
+                  {
+                    id: 'topics29',
+                    name: 'Class Topics',
+                    children: [
+                      {
+                        id: 'topic29_1',
+                        name: '0:00 - Homework Checking',
+                        url: 'https://www.youtube.com/watch?v=Or9snJMVZzc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=30',
+                      },
+                      {
+                        id: 'topic29_2',
+                        name: '8:26 - Doubt 1',
+                        url: 'https://www.youtube.com/watch?v=Or9snJMVZzc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=30&t=506s',
+                      },
+                      {
+                        id: 'topic29_3',
+                        name: '14:01 - Dual Nature of Hydrogen and Typical Elements Topic',
+                        url: 'https://www.youtube.com/watch?v=Or9snJMVZzc&list=PL1id2Mcm3075-etIAJmksdob4vUiCHvNK&index=30&t=841s',
+                      }
+                    ]
+                  },
+                  {
+                    id: 'summary29',
+                    name: 'Class Summary',
+                    children: [
+                      {
+                        id: 'summary29_content',
+                        name: 'No Summary available'
+                      },
+                    ],
+                  },
+                  {
+                    id: 'homework29',
+                    name: 'Homework',
+                    children: [
+                      {
+                        id: 'homework29_content',
+                        name: 'View Homework Document',
+                        url: 'https://docs.google.com/document/d/1kT2bfQFhs1RcY0Lj_eSZ5t903PYvbOMlb1QFx5kOpMM/edit?tab=t.0'
                       },
                     ],
                   },
